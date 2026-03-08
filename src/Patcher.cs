@@ -34,8 +34,6 @@ namespace Runic.CIL
 {
     public abstract partial class Patcher
     {
-        public abstract int Position { get; }
-        public abstract void Emit(byte b);
         public virtual void Fetch(Runic.CIL.Emitter emitter, int offset) { }
         public virtual void Add(Runic.CIL.Emitter emitter, int offset) { emitter.Add(); }
         public virtual void AddOvf(Runic.CIL.Emitter emitter, int offset) { emitter.AddOvf(); }
