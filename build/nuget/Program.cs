@@ -44,6 +44,10 @@ static string CreateNuspec(string packageId, string version, string description,
     stringBuilder.AppendLine("    <tags>runic runicct compiler construction toolkit " + tags + "</tags>");
     stringBuilder.AppendLine("    <license type=\"expression\">MIT</license>");
     stringBuilder.AppendLine("    <licenseUrl>https://licenses.nuget.org/MIT</licenseUrl>");
+    stringBuilder.AppendLine("    <dependencies>");
+    stringBuilder.AppendLine("        <dependency id=\"Runic.CIL.Disassembler\" version=\"[1.0.1,)\" />");
+    stringBuilder.AppendLine("        <dependency id=\"Runic.CIL.Emitter\" version=\"[1.0.0,)\" />");
+    stringBuilder.AppendLine("    </dependencies>");
     stringBuilder.AppendLine("    <icon>runic_logo.png</icon>");
     stringBuilder.AppendLine("  </metadata>");
     stringBuilder.AppendLine("</package>");
