@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Runic.CIL.Patcher</AssemblyName>
+    <RootNamespace>Runic.CIL.Patcher</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="..\..\src\Patcher.cs" Link="Patcher.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Runic.CIL.Disassembler" Version="1.0.1" />
+    <PackageReference Include="Runic.CIL.Emitter" Version="1.0.0" />
+  </ItemGroup>
+</Project>
