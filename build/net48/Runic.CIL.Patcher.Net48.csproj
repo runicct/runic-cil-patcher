@@ -7,8 +7,8 @@
     <ProjectGuid>{290D54F2-C5C7-42BA-9509-A16106721041}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Runic.CIL.Emitter</RootNamespace>
-    <AssemblyName>Runic.CIL.Emitter</AssemblyName>
+    <RootNamespace>Runic.CIL.Patcher</RootNamespace>
+    <AssemblyName>Runic.CIL.Patcher</AssemblyName>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
